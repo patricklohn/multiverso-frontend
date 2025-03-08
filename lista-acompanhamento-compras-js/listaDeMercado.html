@@ -1,0 +1,85 @@
+<htmL>
+    <head>
+        <title>Lista de Mercado</title>
+        <style>
+           *{
+            margin: 0;
+            padding: o;
+            box-sizing: border-box;
+           }
+           header{
+                background-color: rgb(28, 35, 126);
+                text-align: center;
+                padding:20px 0 ;
+                color: white;
+            }
+            .Lista-Cadastro{
+                display: flex;
+                margin: 20px 0;
+                padding:0 20px ;
+            }
+            .Lista-Cadastro input[type=text]{
+                flex: 1;
+                height: 40px;
+                padding:0 20px ;
+            }
+            .Lista-Produtos-Single{
+                padding:10px 0;
+                margin: 20px 0;
+                border-bottom:1px solid #ccc ;
+                display: flex;
+                
+
+            }
+            .Lista-Produtos-Single h3{
+                flex: 1px;
+                padding:0 20px;
+            }
+            h3.price-produto{       
+                text-align: right;
+                font-size: 16px;
+            }
+            h3.price-produto > span{
+                background-color: rgb(208, 211, 253);
+                padding: 8px 10px;
+                border-radius: 20px;
+                /*
+                    não coloquei color no texto
+                    mas se quiser  -->
+                color: black;    
+                */
+            }
+            .Soma-Total{
+                margin:20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header> 
+            <h2>App Lista de Supermercado</h2>
+        </header>
+        <div class="Lista-Cadastro">
+            <input type="text" placeholder="nome do produto......"
+            name="nome_produto"/>
+            <input type="text" placeholder="Valor do produto....."
+            name="valor_produto"/>
+            <input type="submit" name="acao" value="Cadastrar"  />
+        </div>
+        <div class="Lista-Produtos">
+                
+        </div>
+
+        <div class="Soma-Total">
+            <h1>Valor Total R$0</h1>
+        </div>
+
+        <div>
+        <button name="Limpar">Limpar</button>
+        </div>
+        
+        <script src="supermercado.js">
+
+        </script>
+    </body>
+</htmL>
