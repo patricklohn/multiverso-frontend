@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeneratorQRCode</title>
+    <!--Font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/Pkl.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header id="qr-header">
+            <h1>Gerador de Codigos</h1>
+            <p>Insira uma URL ou texto ou numeros, para criar um QR Code <br> ou codigo de barra para o mesmo</p>
+        </header>
+        <main>
+            <div id="qr-form">
+                <input type="text" placeholder="Digite aqui o dado a ser gerado">
+                <select id="selectCode" name="Tipo do Codigo a ser gerado">
+                    <option value="clean"></option>
+                    <option value="qr">Qr-Code</option>
+                    <option value="code128">Codigo-128</option>
+                    <option value="ean13">EAN-13</option>
+                </select>
+                <button id="btn-qr">Gerar Code</button>
+            </div>
+            <div id="qr-code">
+                <img id="qrImg-code" src="http://barcode.orcascan.com/?type=qr&data=https://github.com/patricklohn" alt="QR Code">
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

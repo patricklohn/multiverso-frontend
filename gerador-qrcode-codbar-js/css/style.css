@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #0d1117;
+}
+
+/*Container*/
+.container{
+    background-color: #fff;
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+.container.active{
+    height: 800px;
+}
+
+/* Header */
+
+#qr-header{
+    text-align: center;
+}
+
+#qr-header h1 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+#qr-header p {
+    color: #444;
+    font-size: 0.9rem;
+}
+
+#qr-form{
+    margin: 20px 15px;
+
+}
+
+#qr-form input,
+#btn-qr,
+#qr-form select{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+#qr-form select{
+    border: 1px solid #444;
+    margin-top: 15px;
+}
+
+#qr-form input{
+    border: 0.5px solid #444;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+#btn-qr{
+    background-color: rgb(43, 212, 106);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+#btn-qr:hover{
+    opacity: 1;
+}
+
+/* Qr Code */
+
+#qr-code{
+    display: flex;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 30px 0;
+    margin: 20px 15px;
+    border-radius: 5px;
+    transition: 0.5;
+}
+
+.container.active #qr-code{
+    opacity: 1;
+}
+
+
+#qrImg-code{
+    width: 500px;
+    height: 300px;
+}
+
+#btn-dow{
+    width: 200px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(43, 212, 106);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-left: 32%;
+    opacity: 0.6;
+}
+
+#btn-dow:hover{
+    opacity: 1;
+}
+
+
+.container.active #btn-dow{
+    display: flex;
+}
+
+/* barra de rolagem (scrool)*/
+
+::-webkit-scrollbar-track{
+    background-color: rgb(43, 212, 106);
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(43, 212, 106);
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 10px;
+}
