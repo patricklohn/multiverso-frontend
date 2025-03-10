@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar CPF</title>
+    <script src="src/index.js" defer></script>
+    <link rel="stylesheet" href="src/syle.css">
+</head>
+<body>
+    <div class="main">
+    <form action="">
+        <!-- <input type="text" id="cpf" name="cpf" oninput="formatarCpf(this)"> -->
+        <input type="text" id="cpf" name="cpf" maxlength = '14'>
+        <input type="submit" id='VerificarCpf' value="Verificar cpf">
+    </form>
+    <div class="confirmacao none" id="confirmacao">  
+        <div class="aprovado none" id="aprovado">
+            <h1>O CPF é válido</h1>
+        </div>
+        <div class="recusado none" id="recusado">
+            <h1>O CPF não é válido</h1>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

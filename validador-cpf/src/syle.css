@@ -1,0 +1,42 @@
+.none{
+    display: none;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+/* Form */
+
+.main form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main form input{ 
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Verificação do Cpf*/
+
+.confirmacao{
+    margin-top: 4rem;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #000;
+}
