@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.blocos, .areas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.bloco {
+    width: 100px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+.area-drop {
+    width: 350px;
+    height: 250px;
+    border: 2px dashed #2ecc71;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f1;
+}
+
+.area-drop.hover {
+    background-color: #d1f5d3;
+}
