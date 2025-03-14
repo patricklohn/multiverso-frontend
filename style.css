@@ -50,8 +50,20 @@
 }
 
 .Projetos h2,
-.Projetos div,
 .Projetos a{
+    color: #f1f1f1;
+    background-color: #0d1015;
+}
+
+.Projetos h2{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Projetos div{
     color: #0d1015;
     background-color: #e0e0e0;
 }
