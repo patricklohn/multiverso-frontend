@@ -1,12 +1,12 @@
-# Multiverso Frontend
+# Multiverso Frontend 🌎
 
 Bem-vindo ao **Multiverso Frontend**, um repositório que reúne diversos projetos de frontend desenvolvidos com HTML, CSS e JavaScript.
 
-## Descrição
+## Descrição 📄
 
 Este repositório é uma coletânea de projetos frontend criados com o objetivo de explorar diferentes técnicas e funcionalidades no desenvolvimento web. Cada pasta dentro do repositório representa um projeto individual, abordando temas variados e implementações específicas.
 
-## Estrutura do Repositório
+## Estrutura do Repositório 📂
 
 Aqui estão os projetos contidos neste repositório, junto com uma breve descrição:
 
@@ -67,13 +67,13 @@ Aqui estão os projetos contidos neste repositório, junto com uma breve descri�
 19. **venda-carro-form**: Formulário dinâmico para cadastro de veículos em venda.\
     **Tecnologias**: HTML, CSS, JavaScript
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 💻
 
 - **HTML5**: Estrutura das páginas web.
 - **CSS3**: Estilização e design responsivo.
 - **JavaScript**: Funcionalidades dinâmicas e interativas.
 
-## Como Executar os Projetos
+## Como Executar os Projetos 🔨
 
 Para visualizar e interagir com cada projeto:
 
@@ -81,32 +81,9 @@ Para visualizar e interagir com cada projeto:
    ```bash
    git clone https://github.com/patricklohn/multiverso-frontend.git
    ```
-2. Navegue até a pasta do projeto desejado:
-   ```bash
-   cd multiverso-frontend/nome-do-projeto
-   ```
+2. Navegue até a pasta do projeto desejado ou acesse o "**index.html**".
 3. Abra o arquivo `index.html` no seu navegador de preferência.
 
-## Contribuições
+## Autor 👨‍💻💾
 
-Contribuições são bem-vindas! Se você deseja melhorar algum dos projetos existentes ou adicionar novos, siga os passos abaixo:
-
-1. Faça um fork deste repositório.
-2. Crie uma branch para sua feature ou correção:
-   ```bash
-   git checkout -b minha-nova-feature
-   ```
-3. Commit suas alterações:
-   ```bash
-   git commit -m 'Adiciona nova funcionalidade'
-   ```
-4. Envie para o repositório remoto:
-   ```bash
-   git push origin minha-nova-feature
-   ```
-5. Abra um Pull Request para análise.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
+Desenvolvido e criado por Patrick Lohn [Link GitHub]("https://github.com/patricklohn");
